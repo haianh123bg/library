@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* CSS Document */
+
+.body_signup {
+    background-image: url('../images/login/hero-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* styles.css */
+.container_page_register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    background-color: rgba(23, 19, 19, 0.76);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 2%;
+    margin-left: 10%;
+    background-image: url('../images/login/thuvien6.jpg');
+}
+
+.register_image_container {
+    flex: 1;
+    background: url('../images/login/thuvien4.jpgr') no-repeat center center;
+    background-size: 100% auto; /* Thay đổi kích thước hình ảnh */
+    background-position: center; /* Căn giữa hình ảnh */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register_logo {
+    max-width: 80%;
+    height: auto;
+    padding: 90px 0px 90px 0px;
+}
+
+.register_container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register_box {
+    background-color: rgba(255, 255, 255, 0.9); /* Màu nền với độ mờ */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.register_box h2 {
+    margin-bottom: 20px;
+    color: rgba(0, 95, 177, 1);
+}
+
+.register_input_group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.register_input_group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.register_input_group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register_box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register_box button:hover {
+    background-color: #0056b3;
+}
+
+.register_register_text {
+    margin-top: 20px;
+}
+
+.register_register_text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register_register_text a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #0056b3;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .container_page_register {
+        flex-direction: column;
+        width: 90%;
+        margin: 5% auto;
+    }
+
+    .register_image_container,
+    .register_container {
+        flex: none;
+        width: 100%;
+    }
+
+    .register_box {
+        padding: 20px;
+        box-shadow: none;
+    }
+
+    .register_image_container {
+        height: 200px;
+    }
+
+    .register_logo {
+        max-width: 50%;
+    }
+}

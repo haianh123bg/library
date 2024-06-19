@@ -1,0 +1,5 @@
+jwt:
+  timeoutHours: 5
+  timeoutDays: 14
+  token:
+    secretKey: c2VjcmV0QGtleS5hcGlfaGFzX2JlZW5fZGVzaWduZWRfYnlfVGF5TFE=
